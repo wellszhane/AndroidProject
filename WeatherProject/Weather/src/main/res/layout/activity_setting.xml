@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".SettingActivity"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_gps"
+        android:id="@+id/setting_gps"
+        android:layout_gravity="center"
+        android:checked="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_city"
+        android:id="@+id/setting_citylable"
+        android:layout_gravity="left|center_vertical" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_city"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_state"
+        android:id="@+id/setting_statelable"
+        android:layout_gravity="left|center_vertical" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_state" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_zip"
+        android:id="@+id/setting_ziplable"
+        android:layout_gravity="left|center_vertical" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/setting_zip"
+        android:layout_gravity="left|center_vertical" />
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/setting_days"
+        >
+        <RadioButton
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/setting_1day"
+            android:text="@string/setting_1day"
+            android:checked="false" />
+        <RadioButton
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/setting_2day"
+            android:text="@string/setting_2day"
+            />
+        <RadioButton
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/setting_3day"
+            android:text="@string/setting_3day"
+            />
+
+
+    </RadioGroup>
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/setting_tem"
+        >
+        <RadioButton
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/setting_tems"
+            android:text="@string/setting_tems"
+            android:checked="false" />
+        <RadioButton
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/setting_temh"
+            android:text="@string/setting_temh"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_okbtn"
+        android:id="@+id/setting_okbtn"
+        android:layout_gravity="center" />
+
+</LinearLayout>

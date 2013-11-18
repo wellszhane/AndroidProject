@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">天气</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="setting_gps">使用gps</string>
+    <string name="setting_city">城市:</string>
+    <string name="setting_state">州:</string>
+    <string name="setting_zip">邮编:</string>
+    <string name="setting_3day">当前天气和3天预报</string>
+    <string name="setting_1day">当前天气和2天预报</string>
+    <string name="setting_2day">当前天气和1一天预报</string>
+    <string name="setting_tems">摄氏度</string>
+    <string name="setting_temh">华氏度</string>
+    <string name="setting_okbtn">保存设置</string>
+    <string name="title_activity_test">主活动</string>
+    <string name="downloading">下载中</string>
+    <string name="currentlocation">地点:</string>
+    <string name="action_goback">主屏幕</string>
+    <string name="action_land">方向</string>
+    <string name="start">开始</string>
+    <string name="startwithgps">用预设开始</string>
+
+
+</resources>

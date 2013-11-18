@@ -1,0 +1,392 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  }
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"11:00 PM EDT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Partly cloudy. High of 66F. Winds from the NE at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy. High of 19C. Winds from the NE at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"Partly cloudy. Fog overnight. Low of 50F. Winds less than 5 mph.",
+		"fcttext_metric":"Partly cloudy. Fog overnight. Low of 10C. Winds less than 5 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Partly cloudy. High of 70F. Winds from the NE at 5 to 10 mph shifting to the East in the afternoon.",
+		"fcttext_metric":"Partly cloudy. High of 21C. Winds from the NE at 5 to 15 km/h shifting to the East in the afternoon.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":3,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Mostly cloudy. Fog overnight. Low of 55F. Winds less than 5 mph.",
+		"fcttext_metric":"Mostly cloudy. Fog overnight. Low of 13C. Winds less than 5 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":4,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Mostly cloudy with a chance of rain. Fog early. High of 66F. Winds less than 5 mph. Chance of rain 20%.",
+		"fcttext_metric":"Mostly cloudy with a chance of rain. Fog early. High of 19C. Winds less than 5 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":5,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Clear with a chance of rain. Fog overnight. Low of 57F. Winds from the SSW at 5 to 10 mph shifting to the WNW after midnight.",
+		"fcttext_metric":"Clear with a chance of rain. Fog overnight. Low of 14C. Winds from the SSW at 5 to 15 km/h shifting to the WNW after midnight.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":6,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Clear in the morning, then partly cloudy. High of 63F. Winds from the NW at 5 to 15 mph.",
+		"fcttext_metric":"Clear in the morning, then partly cloudy. High of 17C. Breezy. Winds from the NW at 10 to 20 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Thursday Night",
+		"fcttext":"Overcast with a chance of rain. Low of 46F. Winds from the NNW at 5 to 10 mph. Chance of rain 60% with rainfall amounts near 0.3 in. possible.",
+		"fcttext_metric":"Overcast with a chance of rain. Low of 8C. Winds from the NNW at 10 to 15 km/h. Chance of rain 60% with rainfall amounts near 7.9 mm possible.",
+		"pop":"60"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1381806000",
+	"pretty":"11:00 PM EDT on October 14, 2013",
+	"day":14,
+	"month":10,
+	"year":2013,
+	"yday":286,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"October",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"66",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"50",
+		"celsius":"10"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "NE",
+		"degrees": 49
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "NE",
+		"degrees": 51
+		},
+		"avehumidity": 83,
+		"maxhumidity": 94,
+		"minhumidity": 67
+		}
+		,
+		{"date":{
+	"epoch":"1381892400",
+	"pretty":"11:00 PM EDT on October 15, 2013",
+	"day":15,
+	"month":10,
+	"year":2013,
+	"yday":287,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"October",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"70",
+		"celsius":"21"
+		},
+		"low": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "East",
+		"degrees": 95
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "East",
+		"degrees": 82
+		},
+		"avehumidity": 79,
+		"maxhumidity": 97,
+		"minhumidity": 55
+		}
+		,
+		{"date":{
+	"epoch":"1381978800",
+	"pretty":"11:00 PM EDT on October 16, 2013",
+	"day":16,
+	"month":10,
+	"year":2013,
+	"yday":288,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"October",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"66",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"mostlycloudy",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "SSE",
+		"degrees": 155
+		},
+		"avewind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "South",
+		"degrees": 173
+		},
+		"avehumidity": 90,
+		"maxhumidity": 100,
+		"minhumidity": 79
+		}
+		,
+		{"date":{
+	"epoch":"1382065200",
+	"pretty":"11:00 PM EDT on October 17, 2013",
+	"day":17,
+	"month":10,
+	"year":2013,
+	"yday":289,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"October",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"63",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.31,
+		"mm": 7.9
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.31,
+		"mm": 7.9
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "NW",
+		"degrees": 320
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "NW",
+		"degrees": 323
+		},
+		"avehumidity": 75,
+		"maxhumidity": 100,
+		"minhumidity": 59
+		}
+		]
+		}
+	}
+}
