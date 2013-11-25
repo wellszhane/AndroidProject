@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trivia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="play">PLAY</string>
+    <string name="highscore">High Score:</string>
+    <string name="next">Next</string>
+    <string name="playlogn">Click Play to Download Questions</string>
+    <string name="startlogn">Click start to start</string>
+    <string name="start">Start</string>
+    <string name="startagin">Start New</string>
+    <string name="trueAnswer">True</string>
+    <string name="falseAnswer">False</string>
+    <string name="rightanswer">Right Answer:</string>
+    <string name="totalscore">Total Score:</string>
+
+    <string name="trightanswer">You are right!</string>
+    <string name="twronganswer">You are wrong!</string>
+    <string name="submit">submit</string>
+    <string name="theend">The End!</string>
+</resources>

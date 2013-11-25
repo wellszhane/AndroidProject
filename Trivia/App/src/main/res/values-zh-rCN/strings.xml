@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小程序</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="play">开始玩</string>
+    <string name="highscore">最高分:</string>
+    <string name="next">下一题</string>
+    <string name="playlogn">点击开始，下载题目</string>
+    <string name="startlogn">点击开始，开始游戏</string>
+    <string name="start">开始答题</string>
+    <string name="startagin">重新答题</string>
+    <string name="trueAnswer">对</string>
+    <string name="falseAnswer">错</string>
+    <string name="rightanswer">正确答案</string>
+    <string name="totalscore">总分：</string>
+
+    <string name="trightanswer">答对了！</string>
+    <string name="twronganswer">答错了！</string>
+    <string name="submit">提交</string>
+    <string name="theend">结束了！</string>
+</resources>
